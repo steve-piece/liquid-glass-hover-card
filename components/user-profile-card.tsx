@@ -81,7 +81,7 @@ export function UserProfileCard({ data, position, show, variant, className }: Us
                 className="size-12 rounded-full object-cover bg-slate-200"
               />
               {data.isOnline && (
-                <div className="absolute -bottom-0.5 -right-0.5 size-3.5 rounded-full bg-green-500 animate-pulse" />
+                <div className="absolute -bottom-0.5 -right-0.5 size-3.5 rounded-full bg-emerald-500 animate-pulse" />
               )}
             </div>
             <div className="flex-1 min-w-0">
